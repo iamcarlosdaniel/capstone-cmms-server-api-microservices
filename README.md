@@ -1,6 +1,6 @@
 # Capstone Project - CMMS
 
-![](docs/assets/banner.png)
+![](docs/assets/repository_banner.png)
 
 Este proyecto fue desarrollado como parte del proyecto de grado para la carrera de ingenieria de sistemas informaticos de la Universidad del Valle (UNIVALLE), sede Santa Cruz, en asociacion con la empresa ELETEC.
 
