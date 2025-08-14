@@ -1,1 +1,123 @@
-# capstone-cmms-server-api-microservices
+# Capstone Project - CMMS
+
+![](docs/assets/banner.png)
+
+Este proyecto fue desarrollado como parte del proyecto de grado para la carrera de ingenieria de sistemas informaticos de la Universidad del Valle (UNIVALLE), sede Santa Cruz, en asociacion con la empresa ELETEC.
+
+Este proyecto no se podria haber llevado a cabo sin la tutoria del ingeniero David Percy Escobar Basilio, asi como del equipo del departamento de matenimiento de la empresa ELETEC.
+
+## Índice
+
+- [Arquitectura](#arquitectura)
+- [Instalación](#instalación)
+- [Documentación](#documentación)
+- [Dependencias](#dependencias)
+- [Agradecimientos](#agradecimientos)
+- [Licencia](#licencia)
+
+## Arquitectura
+
+### Servicio de Autenticacion
+
+Nombre en ingles: Authentication Service
+
+> [!Note]
+> Para más información, visita el repositorio oficial del proyecto.
+> Repositorio del proyecto: [capstone-cmms-auth-service-server-api-three-tier](capstone-cmms-auth-service-server-api-three-tier)
+
+### Servicio de Usuarios
+
+### Servicio de Personal
+
+### Servicio de Archivos
+
+### Servicio de Clientes
+
+sign-in
+
+forgot-password
+
+reset-password
+
+## Instalación
+
+1. Clona el repositorio en tu máquina local:
+
+   ```bash
+   git clone https://github.com/iamcarlosdaniel/capstone-cmms-server-api-microservices
+   ```
+
+2. Navega al directorio del proyecto:
+
+   ```bash
+   cd capstone-cmms-server-api-microservices
+   ```
+
+3. Instala las dependencias necesarias:
+
+   ```bash
+   npm install
+   ```
+
+4. Inicia el servidor de desarrollo:
+
+   ```bash
+   npm run dev
+   ```
+
+> El proyecto está configurado para ejecutarse en el **puerto 3000**, por lo tanto, asegúrate de que este puerto esté disponible y revisa la conexión a la base de datos. Puedes encontrar estas y otras opciones en las variables de entorno del proyecto ubicadas en el archivo `.env`.
+
+---
+
+> [!IMPORTANT]
+> Para que el proyecto funcione correctamente, se requiere una carga inicial de datos en la base de datos. Antes de ejecutar el proyecto, asegúrate de ejecutar los siguientes comandos para completar este proceso.
+
+- Para poblar la colección:
+
+  ```bash
+  npm run seed:seedCollection
+  ```
+
+> [!NOTE]
+> El proyecto está configurado para ejecutarse en el **puerto 3000**, así que asegúrate de que ese puerto esté disponible y que la conexión a la base de datos esté correctamente configurada. Puedes encontrar estas y otras opciones de configuración en las variables de entorno del proyecto, ubicadas en el archivo `.env`.
+
+## Documentación
+
+<img src="docs/assets/swagger_logo_banner.png" alt="Logo de Swagger">
+
+<br>
+
+**Swagger** es una herramienta de código abierto que ayuda a diseñar, construir, documentar y consumir APIs RESTful. Proporciona una forma estandarizada y visual de interactuar con las APIs, mejorando la comprensión y el uso de sus endpoints.
+
+Swagger es especialmente útil en entornos donde la colaboración entre los equipos de desarrollo y pruebas es esencial, ya que ofrece un método claro y estandarizado para documentar y consumir APIs.
+
+<img src="docs/assets/scalar_logo_banner.png" alt="Logo de Scalar">
+
+Utilizamos Swagger como herramienta de documentación estandarizada e implementamos una interfaz gráfica mediante **Scalar**, a través de su middleware [@scalar/express-api-reference](https://scalar.com).
+
+Puedes acceder a la documentación de la API en la siguiente URL:
+
+```
+http://localhost:3000/api/v1/reference
+```
+
+Asegúrate de que el proyecto esté en ejecución y que el puerto **3000** no esté siendo utilizado para poder acceder a esta ruta.
+
+> [!NOTE]
+> Puedes cambiar el número de puerto y otras opciones en las variables de entorno del proyecto ubicadas en el archivo `.env`.
+
+## Dependencias
+
+Puedes ver las dependencias del proyecto junto con sus versiones en el archivo [package.json](package.json).
+
+## Agradecimientos
+
+Agradezco al **Ing. David Percy Escobar Basilio** por su valiosa orientación, asesoría técnica y constante apoyo a lo largo del desarrollo de este proyecto.
+
+Agradezco al CEO de ELETEC, **Gustavo Adolfo Menchaca Moreira**, por su disposición y colaboración al brindarnos acceso a la información clave sobre los flujos de trabajo internos de la empresa.
+
+## Licencia
+
+Este proyecto está licenciado bajo los términos de la [GNU General Public License v3.0](LICENSE).
+
+[Regresar al índice](#índice)
