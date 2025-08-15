@@ -4,8 +4,6 @@
 
 Este proyecto fue desarrollado como parte del proyecto de grado para la carrera de ingenieria de sistemas informaticos de la Universidad del Valle (UNIVALLE), sede Santa Cruz, en asociacion con la empresa ELETEC.
 
-Este proyecto no se podria haber llevado a cabo sin la tutoria del ingeniero David Percy Escobar Basilio, asi como del equipo del departamento de matenimiento de la empresa ELETEC.
-
 ## Índice
 
 - [Arquitectura](#arquitectura)
@@ -17,27 +15,56 @@ Este proyecto no se podria haber llevado a cabo sin la tutoria del ingeniero Dav
 
 ## Arquitectura
 
+(DIAGRAMA DE ARQUITECTURA)
+
+### API Gateway
+
+#### Descripcion
+
+Se encargara de enrutar las peticiones desde los diferentes clientes que existen para el sistema.
+
+#### Funciones
+
+- Enrutar las peticiones
+- Cache de informacion
+
+#### Informacion
+
+Redis (base de datos en memoria)
+
 ### Servicio de Autenticacion
 
-Nombre en ingles: Authentication Service
+#### Descripcion
 
-> [!Note]
-> Para más información, visita el repositorio oficial del proyecto.
-> Repositorio del proyecto: [capstone-cmms-auth-service-server-api-three-tier](capstone-cmms-auth-service-server-api-three-tier)
+#### Funciones
+
+- Iniciar Sesion
+- Solicitar restablecimiento de contrasena
+- Restablecer contrasena
+
+#### Informacion
+
+### Servicio de Notiicaciones
+
+- Enviar correo electronicos
+- Enviar web push notifications
+- Enviar android push notifications
 
 ### Servicio de Usuarios
 
-### Servicio de Personal
+- Ver usuarios
+- Ver usuario
+- Crear usuario
+- Editar usuario
+- Eliminar usuario
 
-### Servicio de Archivos
+### Servicio de Empleados
 
-### Servicio de Clientes
-
-sign-in
-
-forgot-password
-
-reset-password
+- Ver empleados
+- Ver empleado
+- Crear empleado
+- Editar empleado
+- Eliminar empleado
 
 ## Instalación
 
@@ -85,8 +112,6 @@ reset-password
 
 <img src="docs/assets/swagger_logo_banner.png" alt="Logo de Swagger">
 
-<br>
-
 **Swagger** es una herramienta de código abierto que ayuda a diseñar, construir, documentar y consumir APIs RESTful. Proporciona una forma estandarizada y visual de interactuar con las APIs, mejorando la comprensión y el uso de sus endpoints.
 
 Swagger es especialmente útil en entornos donde la colaboración entre los equipos de desarrollo y pruebas es esencial, ya que ofrece un método claro y estandarizado para documentar y consumir APIs.
@@ -118,6 +143,6 @@ Agradezco al CEO de ELETEC, **Gustavo Adolfo Menchaca Moreira**, por su disposic
 
 ## Licencia
 
-Este proyecto está licenciado bajo los términos de la [GNU General Public License v3.0](LICENSE).
+Este proyecto está licenciado bajo los términos de la [GNU Affero General Public License v3.0](LICENSE).
 
 [Regresar al índice](#índice)
