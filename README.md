@@ -137,9 +137,9 @@ Puedes ver las dependencias del proyecto junto con sus versiones en el archivo [
 
 ## Agradecimientos
 
-Agradezco al **Ing. David Percy Escobar Basilio** por su valiosa orientación, asesoría técnica y constante apoyo a lo largo del desarrollo de este proyecto.
+Quiero expresar mi profundo agradecimiento al **Ing. David Percy Escobar Basilio** por su invaluable orientación, asesoría técnica y apoyo constante a lo largo del desarrollo de este proyecto.
 
-Agradezco al CEO de ELETEC, **Gustavo Adolfo Menchaca Moreira**, por su disposición y colaboración al brindarnos acceso a la información clave sobre los flujos de trabajo internos de la empresa.
+De igual manera, agradezco al CEO de ELETEC, **Gustavo Adolfo Menchaca Moreira**, por su disposición y colaboración al proporcionarnos acceso a información estratégica sobre los flujos de trabajo internos de la empresa, elemento clave para la realización de este estudio.
 
 ## Licencia
 
