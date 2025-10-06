@@ -2,7 +2,7 @@
 
 ![](docs/assets/repository_banner.png)
 
-Mi propósito con este proyecto, plasmado en este repositorio, es compartir lo que he aprendido en el camino del desarrollo de software y la arquitectura de sistemas, con la esperanza de ser una guía para quienes están dando sus primeros pasos en el mundo del software. Confío en que el contenido aquí compartido no solo les sea útil, sino que también los motive a seguir aprendiendo, explorando y creciendo como profesionales. Que este proyecto sea un pequeño impulso en el inicio de un gran camino.
+Este proyecto busca compartir lo que he aprendido en desarrollo de software y arquitectura de sistemas, con la intención de guiar e inspirar a quienes comienzan en este camino. Espero que el contenido sea útil y motive a seguir aprendiendo y creciendo como profesionales.
 
 > [!IMPORTANT]
 > Este proyecto fue desarrollado como parte del trabajo de grado de la carrera de Ingeniería de Sistemas Informáticos de la Universidad del Valle (UNIVALLE), sede Santa Cruz, en colaboración con la empresa ELETEC, bajo la tutoría del Ing. David Percy Escobar Basilio.
